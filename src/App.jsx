@@ -5,7 +5,7 @@ import Hero from './components/Hero';
 
 function App() {
   return (
-    <div className='bg-[#14213d] h-full p-0'>
+    <div className='bg-background h-full p-0'>
       <NavBar />
       <Hero/>
       
