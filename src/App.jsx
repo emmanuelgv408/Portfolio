@@ -1,19 +1,17 @@
-import React from 'react'; // Make sure this line is included
+import React from 'react';
 import NavBar from './components/NavBar';
 import Hero from './components/Hero';
-
-
-
+import ParticlesComponent from './components/Particles';
 
 function App() {
   return (
-    <div className='relative h-full p-0 bg-background'>
-
-
-
-      <NavBar />
-      <Hero/>
+    <div className="relative h-screen bg-background">
       
+      <ParticlesComponent className="absolute inset-0 -z-10 h-full w-full" />
+
+      
+      <NavBar  />
+      <Hero  />
     </div>
   );
 }
