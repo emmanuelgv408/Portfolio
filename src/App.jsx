@@ -3,9 +3,14 @@ import NavBar from './components/NavBar';
 import Hero from './components/Hero';
 
 
+
+
 function App() {
   return (
-    <div className='bg-background h-full p-0'>
+    <div className='relative h-full p-0 bg-background'>
+
+
+
       <NavBar />
       <Hero/>
       

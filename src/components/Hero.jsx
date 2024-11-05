@@ -2,10 +2,15 @@ import React from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
+
 function Hero() {
   return (
-    <main className="flex flex-col min-w-full min-h-screen bg-background justify-center space-y-[200px]">
+    <main className="flex flex-col min-w-full min-h-screen  justify-center space-y-[200px] ">
       <div className="flex flex-col space-y-8  ml-[150px]">
+
+
+
+       
         <p className="text-cyan text-7xl">
           Hey, <br />
           I'm <span className="text-custom-gray">Emmanuel</span>

@@ -7,10 +7,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        'custom-gray': '#e5e5e5', // Add this line
-        'custom-blue' : '#14213d',
-        'custom-orange' : '#fca311',
-        'custom-grey' : '#e5e5e5',
+        
+       
+        'custom-grey' : '#131415',
         'background': "#000000",
         'primary-text': "#E5E5E5 ",
         'cyan': " #00BCD4",
