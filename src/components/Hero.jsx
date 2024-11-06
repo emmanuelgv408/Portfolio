@@ -13,7 +13,7 @@ function Hero() {
   });
 
   return (
-    <main className="flex flex-col min-w-full min-h-screen  justify-center space-y-[200px] ">
+    <main className="flex flex-col min-w-full min-h-screen  justify-center space-y-[200px] bg-background">
 
 {/* container for left and right*/}
 <div className="flex justify-between items-center space-y-[100px] gap-[200px]">
@@ -21,7 +21,7 @@ function Hero() {
 
 {/* left side*/}
 <div className="w-1/2">
-<div className="flex flex-col space-y-8  ml-[150px]">
+<div className="flex flex-col space-y-8  px-9">
         <p className="text-cyan text-6xl">
           Hey, <br />
           I'm <span className="text-white">Emmanuel</span>
@@ -36,7 +36,7 @@ function Hero() {
 </div>
 
 {/* right side*/}
-<div className="w-1/2 " >
+<div className="w-1/2 px-9" >
 
 <img src={placeholder} alt="placeholder" srcset="" className="w-[250px] h-[250px] border rounded-full"/>
 
@@ -49,7 +49,7 @@ function Hero() {
 
 
 
-      <div className="text-cyan ml-[150px] flex gap-4 text-4xl w-full">
+      <div className="text-cyan flex gap-4 text-4xl w-full px-9">
         <LinkedInIcon className="hover:cursor-pointer" />
         <GitHubIcon className="hover:cursor-pointer" />
       </div>
