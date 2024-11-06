@@ -16,13 +16,13 @@ function Hero() {
     <main className="flex flex-col min-w-full min-h-screen  justify-center space-y-[200px] ">
 
 {/* container for left and right*/}
-<div className="flex justify-between items-center space-y-[100px]">
+<div className="flex justify-between items-center space-y-[100px] gap-[200px]">
 
 
 {/* left side*/}
-<div>
+<div className="w-1/2">
 <div className="flex flex-col space-y-8  ml-[150px]">
-        <p className="text-cyan text-7xl">
+        <p className="text-cyan text-6xl">
           Hey, <br />
           I'm <span className="text-white">Emmanuel</span>
          <br /><span className="text-white">{text}</span>
@@ -36,9 +36,9 @@ function Hero() {
 </div>
 
 {/* right side*/}
-<div >
+<div className="w-1/2 " >
 
-<img src={placeholder} alt="placeholder" srcset="" />
+<img src={placeholder} alt="placeholder" srcset="" className="w-[250px] h-[250px] border rounded-full"/>
 
 </div>
 
