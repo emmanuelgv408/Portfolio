@@ -15,13 +15,17 @@ function Hero() {
   return (
     <main className="flex flex-col min-w-full min-h-screen  justify-center space-y-[200px] ">
 
+{/* container for left and right*/}
+<div className="flex justify-between items-center space-y-[100px]">
 
 
-      <div className="flex flex-col space-y-8  ml-[150px]">
+{/* left side*/}
+<div>
+<div className="flex flex-col space-y-8  ml-[150px]">
         <p className="text-cyan text-7xl">
           Hey, <br />
           I'm <span className="text-white">Emmanuel</span>
-          <br /> I'm a <span className="text-white">{text}</span>
+         <br /><span className="text-white">{text}</span>
           <Cursor cursorColor="white" />
         </p>
 
@@ -29,6 +33,21 @@ function Hero() {
           Contact
         </button>
       </div>
+</div>
+
+{/* right side*/}
+<div >
+
+<img src={placeholder} alt="placeholder" srcset="" />
+
+</div>
+
+
+
+</div>
+
+
+
 
       <div className="text-cyan ml-[150px] flex gap-4 text-4xl w-full">
         <LinkedInIcon className="hover:cursor-pointer" />
