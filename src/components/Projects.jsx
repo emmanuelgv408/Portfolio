@@ -1,4 +1,6 @@
 import React from "react";
+import reactIcon from "../assets/react-icon.svg";
+import tailwindIcon from "../assets/tailwind-icon.svg";
 
 function Projects() {
   return (
@@ -7,7 +9,31 @@ function Projects() {
         Latest Projects
       </h1>
       {/* projects container */}
-      <div className="bg-custom-grey min-w-full h-[80%] flex flex-col"></div>
+      <div className="bg-custom-grey min-w-full h-[80%] flex flex-col p-3">
+        {/*project 1*/}
+        <section className=" h-1/3 flex">
+          {/*left*/}
+          <div className="w-1/2 flex items-center py-4 flex-col justify-around">
+            <h1 className="text-xl font-bold">Dummy Website</h1>
+            <p className="text-sm">Description for the Website</p>
+            <button className="  mt-3 border rounded-3xl py-2 px-3 text-primary-text bg-cyan border-none hover:cursor-pointer">
+              View Project
+            </button>
+            <div className="mt-3">
+              <p className="text-sm font-bold">Built with</p>
+              {/* tech container*/}
+              <div className="flex">
+                <img src={reactIcon} alt="react-icon" className="w-10" />
+                <img src={tailwindIcon} alt="tailwind-icon" className="w-10" />
+              </div>
+            </div>
+          </div>
+          {/*right*/}
+          <div className="w-1/2 bg-purple-400">Dummy text</div>
+
+          <div></div>
+        </section>
+      </div>
     </div>
   );
 }

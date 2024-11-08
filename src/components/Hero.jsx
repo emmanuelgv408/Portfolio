@@ -13,7 +13,7 @@ function Hero() {
   });
 
   return (
-    <main className="flex flex-col min-w-full h-screen  justify-center space-y-[200px] bg-background">
+    <main className="flex flex-col min-w-full  h-[80%]  justify-center space-y-[200px] bg-background">
 
 {/* container for left and right*/}
 <div className="flex justify-between items-center space-y-[100px] gap-[200px]">
