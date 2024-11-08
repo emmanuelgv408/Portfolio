@@ -5,7 +5,7 @@ import logo from '../assets/logo.png';
 
 function NavBar() {
   return (
-    <nav className="sticky top-0 flex justify-around flex-row min-w-full  border-none shadow-sm bg-custom-grey ">
+    <nav className="sticky top-0 flex justify-around flex-row min-w-full  border-none shadow-sm bg-custom-grey/90 ">
       <div className="hover:cursor-pointer bg-transparent">
         <img src={logo} alt="Logo" className=" w-[70px] bg-transparent opacity-100" />
       </div>
