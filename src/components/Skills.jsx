@@ -21,7 +21,7 @@ function Skills() {
 
   return (
     <div className="h-screen bg-background text-cyan p-8 flex flex-col gap-3">
-      <h1 className="text-3xl font-bold">Skills</h1>
+      <h1 className="text-3xl font-bold justify-end flex ">Skills</h1>
 
       <div className="h-[40%] bg-custom-grey flex overflow-hidden whitespace-nowrap">
         {Array(2).fill().map((_, i) => (

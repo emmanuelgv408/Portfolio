@@ -14,6 +14,7 @@ function NavBar() {
         <a href="" className="hover:underline hover:cursor-pointer hover:text-dark-cyan">Home</a>
         <a href="" className="hover:underline hover:cursor-pointer">About</a>
         <a href="" className="hover:underline hover:cursor-pointer">Skills</a>
+        <a href=""className="hover:underline hover:cursor-pointer">Projects</a>
         <a href=""className="hover:underline hover:cursor-pointer">Contact</a>
 
       </div>
