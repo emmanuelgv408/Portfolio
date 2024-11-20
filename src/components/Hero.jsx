@@ -50,8 +50,8 @@ function Hero() {
 
 
       <div className="text-cyan flex gap-4 text-4xl w-full px-9">
-        <LinkedInIcon className="hover:cursor-pointer" />
-        <GitHubIcon className="hover:cursor-pointer" />
+        <LinkedInIcon className="hover:cursor-pointer hover:text-white transition-transform transform hover:scale-110" />
+        <GitHubIcon className="hover:cursor-pointer hover:text-white transition-transform transform hover:scale-110" />
       </div>
 
 

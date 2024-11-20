@@ -47,7 +47,7 @@ function Skills() {
       </div>
 
       <div className="flex justify-end">
-        <p className="text-3xl w-[70%]">
+        <p className="text-3xl w-[70%] ">
            I am a university student actively honing my technical skills both
           through my academic coursework and personal projects. In addition to
           staying on track with my program, I dedicate time outside of my
