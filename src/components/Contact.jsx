@@ -3,10 +3,11 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
 import PhoneIcon from "@mui/icons-material/Phone";
+import { Link } from "@mui/material";
 
 function Contact() {
   return (
-    <div className="min-w-full h-[60%] bg-background p-8 flex flex-col items-center gap-6 text-cyan">
+    <div id = 'Contact' className="min-w-full h-[60%] bg-background p-8 flex flex-col items-center gap-6 text-cyan">
       <h1 className="text-5xl font-bold hover:text-white transition">Let's Work Together!</h1>
       <p className="text-white text-center">
         Feel free to contact me for collaborations, opportunities, or just to say hi!
@@ -15,20 +16,20 @@ function Contact() {
       {/* Socials */}
       <div className="flex gap-6 text-4xl">
         <a
-          href="https://www.linkedin.com/in/your-profile"
+          href="https://github.com/emmanuelgv408"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn Profile"
         >
-          <LinkedInIcon className="" />
+          <GitHubIcon className="hover:cursor-pointer hover:text-white transition-transform transform hover:scale-110" />
         </a>
         <a
-          href="https://github.com/your-username"
+          href="https://www.linkedin.com/in/emmanuelgv408/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub Profile"
         >
-          <GitHubIcon className="hover:cursor-pointer hover:text-white transition-transform transform hover:scale-110" />
+          <LinkedInIcon className="hover:cursor-pointer hover:text-white transition-transform transform hover:scale-110" />
         </a>
       </div>
 

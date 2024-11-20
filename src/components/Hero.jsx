@@ -13,7 +13,7 @@ function Hero() {
   });
 
   return (
-    <main className="flex flex-col min-w-full  h-[80%]  justify-center space-y-[200px] bg-background">
+    <main  id = 'Hero' className="flex flex-col min-w-full  h-[80%]  justify-center space-y-[200px] bg-background">
 
 {/* container for left and right*/}
 <div className="flex justify-between items-center space-y-[100px] gap-[200px]">
@@ -29,7 +29,10 @@ function Hero() {
           <Cursor cursorColor="white" />
         </p>
 
-        <button className="w-[150px] border rounded-md px-[24px] py-[10px] text-primary-text bg-cyan border-none hover:cursor-pointer">
+        <button className="w-[150px] border rounded-md px-[24px] py-[10px] text-primary-text bg-cyan border-none hover:cursor-pointer"
+        onClick={() => {
+          document.getElementById("Contact").scrollIntoView({ behavior: "smooth" });
+        }}>
           Contact
         </button>
       </div>
@@ -50,8 +53,22 @@ function Hero() {
 
 
       <div className="text-cyan flex gap-4 text-4xl w-full px-9">
-        <LinkedInIcon className="hover:cursor-pointer hover:text-white transition-transform transform hover:scale-110" />
-        <GitHubIcon className="hover:cursor-pointer hover:text-white transition-transform transform hover:scale-110" />
+      <a
+          href="https://github.com/emmanuelgv408"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn Profile"
+        >
+          <GitHubIcon className="hover:cursor-pointer hover:text-white transition-transform transform hover:scale-110" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/emmanuelgv408/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub Profile"
+        >
+          <LinkedInIcon className="hover:cursor-pointer hover:text-white transition-transform transform hover:scale-110" />
+        </a>
       </div>
 
 

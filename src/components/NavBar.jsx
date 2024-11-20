@@ -12,10 +12,10 @@ function NavBar() {
 
       <div className="flex gap-6 items-center text-cyan">
         <a href="" className="hover:underline hover:cursor-pointer hover:text-dark-cyan">Home</a>
-        <a href="" className="hover:underline hover:cursor-pointer">About</a>
-        <a href="" className="hover:underline hover:cursor-pointer">Skills</a>
-        <a href=""className="hover:underline hover:cursor-pointer">Projects</a>
-        <a href=""className="hover:underline hover:cursor-pointer">Contact</a>
+        <a href="#About" className="hover:underline hover:cursor-pointer">About</a>
+        <a href="#Skills" className="hover:underline hover:cursor-pointer">Skills</a>
+        <a href="#Projects"className="hover:underline hover:cursor-pointer">Projects</a>
+        <a href="#Contact"className="hover:underline hover:cursor-pointer">Contact</a>
 
       </div>
     </nav>

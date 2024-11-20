@@ -4,7 +4,7 @@ import memoji from "../assets/memoji3.png";
 
 function About() {
   return (
-    <div className="min-w-full h-screen/2 bg-background flex p-9">
+    <div id= 'About'className="min-w-full h-screen/2 bg-background flex p-9">
       {/*left*/}
       <div className="min-h-full w-1/2 flex justify-center flex-col gap-5">
         <h1 className="text-cyan text-3xl font-bold ">About</h1>

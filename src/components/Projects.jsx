@@ -5,7 +5,7 @@ import portfolioSS from'../assets/portfolio-screenshot.png'
 
 function Projects() {
   return (
-    <div className="h-full min-w-full bg-background p-8 text-cyan flex flex-col gap-3">
+    <div id = 'Projects'className="h-full min-w-full bg-background p-8 text-cyan flex flex-col gap-3">
       <h1 className="text-3xl font-bold flex justify-center">
         Latest Projects
       </h1>
@@ -15,8 +15,8 @@ function Projects() {
         <section className=" h-1/3 flex">
           {/*left*/}
           <div className="w-1/2 flex items-center py-4 flex-col justify-around">
-            <h1 className="text-xl font-bold">Dummy Website</h1>
-            <p className="text-sm">Description for the Website</p>
+            <h1 className="text-xl font-bold">Portfolio</h1>
+            <p className="text-sm">My personal portfolio that was created with React and Tailwind</p>
             <button className="  mt-3 border rounded-3xl py-2 px-3 text-primary-text bg-cyan border-none hover:cursor-pointer">
               View Project
             </button>
@@ -39,7 +39,7 @@ function Projects() {
         <section className=" h-1/3 flex">
           {/*left*/}
           <div className="w-1/2 flex items-center py-4 flex-col justify-around">
-            <h1 className="text-xl font-bold">Dummy Website</h1>
+            <h1 className="text-xl font-bold">Comming Soon..</h1>
             <p className="text-sm">Description for the Website</p>
             <button className="  mt-3 border rounded-3xl py-2 px-3 text-primary-text bg-cyan border-none hover:cursor-pointer">
               View Project
@@ -63,7 +63,7 @@ function Projects() {
         <section className=" h-1/3 flex">
           {/*left*/}
           <div className="w-1/2 flex items-center py-4 flex-col justify-around">
-            <h1 className="text-xl font-bold">Dummy Website</h1>
+            <h1 className="text-xl font-bold">Comming Sooon..</h1>
             <p className="text-sm">Description for the Website</p>
             <button className="  mt-3 border rounded-3xl py-2 px-3 text-primary-text bg-cyan border-none hover:cursor-pointer">
               View Project
