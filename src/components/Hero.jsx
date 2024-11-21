@@ -2,7 +2,7 @@ import React from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import placeholder from "../assets/placeholder.png";
+import heroImg from "../assets/hero.png";
 
 function Hero() {
   const [text] = useTypewriter({
@@ -13,51 +13,53 @@ function Hero() {
   });
 
   return (
-    <main  id = 'Hero' className="flex flex-col min-w-full  h-[80%]  justify-center space-y-[200px] bg-background">
+    <main
+      id="Hero"
+      className="flex flex-col min-w-full h-[95%] justify-center space-y-20 bg-background"
+    >
+      {/* container for left and right */}
+      <div className="flex flex-col lg:flex-row justify-between items-center gap-12 lg:gap-[200px] px-6">
+        {/* left side */}
+        <div className="w-full lg:w-1/2 text-center lg:text-left">
+          <div className="flex flex-col space-y-8">
+            <p className="text-cyan text-6xl">
+              Hey, <br />
+              I'm <span className="text-white">Emmanuel</span>
+              <br />
+              <span className="text-white">{text}</span>
+              <Cursor cursorColor="white" />
+            </p>
 
-{/* container for left and right*/}
-<div className="flex justify-between items-center space-y-[100px] gap-[200px]">
+            <button
+              className="w-[150px] border rounded-md px-[24px] py-[10px] text-primary-text bg-cyan border-none hover:cursor-pointer mx-auto lg:mx-0"
+              onClick={() => {
+                document
+                  .getElementById("Contact")
+                  .scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              Contact
+            </button>
+          </div>
+        </div>
 
-
-{/* left side*/}
-<div className="w-1/2">
-<div className="flex flex-col space-y-8  px-9">
-        <p className="text-cyan text-6xl">
-          Hey, <br />
-          I'm <span className="text-white">Emmanuel</span>
-         <br /><span className="text-white">{text}</span>
-          <Cursor cursorColor="white" />
-        </p>
-
-        <button className="w-[150px] border rounded-md px-[24px] py-[10px] text-primary-text bg-cyan border-none hover:cursor-pointer"
-        onClick={() => {
-          document.getElementById("Contact").scrollIntoView({ behavior: "smooth" });
-        }}>
-          Contact
-        </button>
+        {/* right side */}
+        <div className="w-full lg:w-1/2 flex justify-center">
+          <img
+            src={heroImg}
+            alt="placeholder"
+            className="max-w-full w-[700px]"
+          />
+        </div>
       </div>
-</div>
 
-{/* right side*/}
-<div className="w-1/2 px-9" >
-
-<img src={placeholder} alt="placeholder" srcset="" className="w-[250px] h-[250px] border rounded-full"/>
-
-</div>
-
-
-
-</div>
-
-
-
-
-      <div className="text-cyan flex gap-4 text-4xl w-full px-9">
-      <a
+      {/* Social links */}
+      <div className="text-cyan flex gap-4 text-4xl w-full justify-center lg:justify-start px-6">
+        <a
           href="https://github.com/emmanuelgv408"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="LinkedIn Profile"
+          aria-label="GitHub Profile"
         >
           <GitHubIcon className="hover:cursor-pointer hover:text-white transition-transform transform hover:scale-110" />
         </a>
@@ -65,15 +67,11 @@ function Hero() {
           href="https://www.linkedin.com/in/emmanuelgv408/"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="GitHub Profile"
+          aria-label="LinkedIn Profile"
         >
           <LinkedInIcon className="hover:cursor-pointer hover:text-white transition-transform transform hover:scale-110" />
         </a>
       </div>
-
-
-
-
     </main>
   );
 }
