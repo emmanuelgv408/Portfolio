@@ -11,7 +11,7 @@ function Contact() {
       className="min-w-full h-[60%] bg-background p-6 md:p-8 flex flex-col items-center gap-6 text-cyan"
     >
       {/* Header */}
-      <h1 className="text-4xl md:text-5xl font-bold hover:text-white transition">
+      <h1 className="text-4xl text-center md:text-5xl font-bold hover:text-white transition">
         Let's Work Together!
       </h1>
       <p className="text-white text-center max-w-[600px]">
