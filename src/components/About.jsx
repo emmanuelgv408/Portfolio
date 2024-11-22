@@ -5,7 +5,7 @@ function About() {
   return (
     <div
       id="About"
-      className="min-w-full h-[70%] bg-background flex flex-col md:flex-row p-6 md:p-9 gap-8 md:gap-0"
+      className="min-w-full min-h-full bg-background flex flex-col md:flex-row p-6 md:p-9 gap-8 md:gap-0"
     >
       {/* left */}
       <div className="w-full md:w-1/2 flex flex-col justify-center gap-5 text-center md:text-left">

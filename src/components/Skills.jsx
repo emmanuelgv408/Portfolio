@@ -22,7 +22,7 @@ function Skills() {
   return (
     <div
       id="Skills"
-      className="h-[80%] bg-background text-cyan p-6 md:p-8 flex flex-col gap-5"
+      className="min-h-full bg-background text-cyan p-6 md:p-8 flex flex-col justify-around gap-5"
     >
       {/* Header */}
       <h1 className="text-3xl font-bold flex justify-end md:justify-start">

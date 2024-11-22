@@ -15,7 +15,7 @@ function Hero() {
   return (
     <main
       id="Hero"
-      className="flex flex-col min-w-full h-[95%] justify-center space-y-20 bg-background"
+      className="flex flex-col min-w-full min-h-screen py-10 justify-center space-y-20 bg-background"
     >
       {/* container for left and right */}
       <div className="flex flex-col lg:flex-row justify-between items-center gap-12 lg:gap-[200px] px-6">
