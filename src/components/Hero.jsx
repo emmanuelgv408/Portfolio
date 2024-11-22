@@ -15,31 +15,43 @@ function Hero() {
   return (
     <main
       id="Hero"
-      className="flex flex-col min-w-full min-h-screen py-10 justify-center space-y-20 bg-background"
+      className="flex flex-col min-w-full min-h-screen py-10 justify-center space-y-20 bg-background relative"
     >
       {/* container for left and right */}
-      <div className="flex flex-col lg:flex-row justify-between items-center gap-12 lg:gap-[200px] px-6">
+      <div className="flex flex-col lg:flex-row justify-between items-center gap-12 lg:gap-[100px] px-6 relative z-10">
         {/* left side */}
         <div className="w-full lg:w-1/2 text-center lg:text-left">
-          <div className="flex flex-col space-y-8">
-            <p className="text-cyan text-6xl">
+          <div
+            className="flex flex-col space-y-8"
+            style={{
+              minHeight: "280px", // Minimum height to prevent collapsing
+              maxHeight: "auto", // Allow expansion
+              overflow: "hidden",
+            }}
+          >
+            <p className="text-cyan text-4xl sm:text-5xl lg:text-6xl">
               Hey, <br />
               I'm <span className="text-white">Emmanuel</span>
               <br />
-              <span className="text-white">{text}</span>
-              <Cursor cursorColor="white" />
+              <span className="text-white block break-words whitespace-normal">
+                {text}
+                <Cursor cursorColor="white" />
+              </span>
             </p>
 
-            <button
-              className="w-[150px] border rounded-md px-[24px] py-[10px] text-primary-text bg-cyan border-none hover:cursor-pointer mx-auto lg:mx-0"
-              onClick={() => {
-                document
-                  .getElementById("Contact")
-                  .scrollIntoView({ behavior: "smooth" });
-              }}
-            >
-              Contact
-            </button>
+            {/* Contact Button */}
+            <div className="flex justify-center lg:justify-start">
+              <button
+                className="w-[150px] border rounded-md px-[24px] py-[10px] text-primary-text bg-cyan border-none hover:cursor-pointer mt-4" // added mt-4 to separate from text
+                onClick={() => {
+                  document
+                    .getElementById("Contact")
+                    .scrollIntoView({ behavior: "smooth" });
+                }}
+              >
+                Contact
+              </button>
+            </div>
           </div>
         </div>
 
@@ -48,13 +60,13 @@ function Hero() {
           <img
             src={heroImg}
             alt="placeholder"
-            className="max-w-full w-[700px]"
+            className="max-w-full w-[300px] sm:w-[500px] lg:w-[700px] z-0"
           />
         </div>
       </div>
 
       {/* Social links */}
-      <div className="text-cyan flex gap-4 text-4xl w-full justify-center lg:justify-start px-6">
+      <div className="text-cyan flex gap-4 text-3xl sm:text-4xl w-full justify-center lg:justify-start px-6">
         <a
           href="https://github.com/emmanuelgv408"
           target="_blank"
