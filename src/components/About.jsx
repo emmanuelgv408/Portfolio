@@ -1,35 +1,29 @@
 import React from "react";
-import memoji from "../assets/memoji3.png";
+import memoji from '../assets/memoji3.png'
+
 
 function About() {
   return (
-    <div
-      id="About"
-      className="min-w-full min-h-full bg-background flex flex-col md:flex-row p-6 md:p-9 gap-8 md:gap-0"
-    >
-      {/* left */}
-      <div className="w-full md:w-1/2 flex flex-col justify-center gap-5 text-center md:text-left">
-        <h1 className="text-cyan text-3xl font-bold">About</h1>
-        <p className="text-cyan text-3xl">
-          {" "}
-          I'm a{" "}
-          <span className="text-white">Software Engineering student</span> at{" "}
-          <span className="text-white">Western Governors University</span> with
-          future aspirations of becoming a full-stack developer. I'm a{" "}
-          <span className="text-white">quick learner</span> and a{" "}
-          <span className="text-white">highly adaptable</span> student that will
-          exceed your expectations.
-        </p>
-      </div>
+    <div className="bg-background px-8 py-16">
+      <h1 className="text-3xl font-bold text-cyan underline text-center mb-8">
+        About
+      </h1>
 
-      {/* right */}
-      <div className="w-full md:w-1/2 flex justify-center items-center">
-        <div className="bg-custom-grey flex items-center justify-center rounded-full p-10">
-          <img
-            src={memoji}
-            alt=""
-            className="w-[150px] md:w-[200px]"
-          />
+      <div className="flex flex-col md:flex-row items-center justify-around gap-8">
+        <div className="bg-custom-grey flex items-center justify-center rounded-full p-6 md:p-10">
+          <img src={memoji} alt="Memoji" className="w-[150px] md:w-[200px]" />
+        </div>
+        
+        <div className="w-full md:w-[50%]">
+          <p className="text-cyan text-xl">
+            I'm a{" "}
+            <span className="text-white">Software Engineering student</span> at{" "}
+            <span className="text-white">Western Governors University</span> 
+            with future aspirations of becoming a full-stack developer. I'm a{" "}
+            <span className="text-white">quick learner</span> and a{" "}
+            <span className="text-white">highly adaptable</span> student who 
+            will exceed your expectations.
+          </p>
         </div>
       </div>
     </div>
