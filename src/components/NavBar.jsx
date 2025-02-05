@@ -20,43 +20,44 @@ function NavBar() {
       </div>
 
       {/* Navigation Links */}
-      <div className="flex gap-10 items-center text-white text-sm md:text-base font-semibold ">
-        <a
-          href="#Home"
-          onClick={() => handleClick("Home")}
-          className={`hover:text-cyan-500 hover:cursor-pointer pb-2 border-b-2 ${activeLink === "Home" ? "border-cyan" : "border-transparent"}`}
-        >
-          Home
-        </a>
-        <a
-          href="#About"
-          onClick={() => handleClick("About")}
-          className={`hover:text-cyan-500 hover:cursor-pointer pb-2 border-b-2 ${activeLink === "About" ? "border-cyan" : "border-transparent"}`}
-        >
-          About
-        </a>
-        <a
-          href="#Skills"
-          onClick={() => handleClick("Skills")}
-          className={`hover:text-cyan-500 hover:cursor-pointer pb-2 border-b-2 ${activeLink === "Skills" ? "border-cyan" : "border-transparent"}`}
-        >
-          Skills
-        </a>
-        <a
-          href="#Projects"
-          onClick={() => handleClick("Projects")}
-          className={`hover:text-cyan-500 hover:cursor-pointer pb-2 border-b-2 ${activeLink === "Projects" ? "border-cyan" : "border-transparent"}`}
-        >
-          Projects
-        </a>
-        <a
-          href="#Contact"
-          onClick={() => handleClick("Contact")}
-          className={`hover:text-cyan-500 hover:cursor-pointer pb-2 border-b-2 ${activeLink === "Contact" ? "border-cyan" : "border-transparent"}`}
-        >
-          Contact
-        </a>
-      </div>
+        {/* Navigation Links */}
+  <div className="flex gap-10 items-center text-white text-sm md:text-base font-semibold">
+    <a
+      href="#Home"
+      onClick={() => handleClick("Home")}
+      className={`hover:text-cyan-500 hover:cursor-pointer  border-b-2 ${activeLink === "Home" ? "border-cyan" : "border-transparent"}`}
+    >
+      Home
+    </a>
+    <a
+      href="#About"
+      onClick={() => handleClick("About")}
+      className={`hover:text-cyan-500 hover:cursor-pointer  border-b-2 ${activeLink === "About" ? "border-cyan" : "border-transparent"}`}
+    >
+      About
+    </a>
+    <a
+      href="#Skills"
+      onClick={() => handleClick("Skills")}
+      className={`hover:text-cyan-500 hover:cursor-pointer border-b-2 ${activeLink === "Skills" ? "border-cyan" : "border-transparent"}`}
+    >
+      Skills
+    </a>
+    <a
+      href="#Projects"
+      onClick={() => handleClick("Projects")}
+      className={`hover:text-cyan-500 hover:cursor-pointer  border-b-2 ${activeLink === "Projects" ? "border-cyan" : "border-transparent"}`}
+    >
+      Projects
+    </a>
+    <a
+      href="#Contact"
+      onClick={() => handleClick("Contact")}
+      className={`hover:text-cyan-500 hover:cursor-pointer  border-b-2 ${activeLink === "Contact" ? "border-cyan" : "border-transparent"}`}
+    >
+      Contact
+    </a>
+  </div>
     </nav>
   );
 }
