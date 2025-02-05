@@ -10,7 +10,7 @@ function Projects() {
       className="min-w-full bg-background p-6 md:p-8 text-cyan flex flex-col gap-8"
     >
       {/* Header */}
-      <h1 className="text-3xl font-bold flex justify-center">Latest Projects</h1>
+      <h1 className="sm:text-2xl text-4xl font-bold flex justify-center underline ">Projects</h1>
 
       {/* Projects Container */}
       <div className="bg-custom-grey w-full flex flex-col gap-8 p-4">

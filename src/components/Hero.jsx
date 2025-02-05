@@ -15,7 +15,7 @@ function Hero() {
   return (
     <main
       id="Hero"
-      className="flex flex-col min-w-full min-h-screen py-10 justify-center space-y-20 bg-background relative"
+      className="flex flex-col min-w-full h-screen justify-center space-y-20 bg-background relative p-6"
     >
       {/* container for left and right */}
       <div className="flex flex-col lg:flex-row justify-between items-center gap-12 lg:gap-[100px] px-6 relative z-10">
@@ -24,12 +24,12 @@ function Hero() {
           <div
             className="flex flex-col space-y-8"
             style={{
-              minHeight: "280px", // Minimum height to prevent collapsing
-              maxHeight: "auto", // Allow expansion
+              minHeight: "280px", 
+              maxHeight: "auto", 
               overflow: "hidden",
             }}
           >
-            <p className="text-cyan text-4xl sm:text-5xl lg:text-6xl">
+            <p className="text-cyan text-4xl sm:text-4xl lg:text-6xl">
               Hey, <br />
               I'm <span className="text-white">Emmanuel</span>
               <br />

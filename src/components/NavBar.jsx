@@ -3,7 +3,7 @@ import logo from '../assets/logo4.png';
 
 function NavBar() {
   return (
-    <nav className="h-[70px] sticky top-0 flex items-center justify-around border-none shadow-sm bg-custom-grey/90 px-4 sm:px-6 md:px-8">
+    <nav className="h-[70px] sticky top-0 z-50 flex items-center justify-around border-none shadow-sm bg-custom-grey/90 px-4 sm:px-6 md:px-8">
       {/* Logo Section */}
       <div className="hover:cursor-pointer bg-transparent align-middle">
         <img 
