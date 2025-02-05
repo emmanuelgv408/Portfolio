@@ -4,7 +4,7 @@ import memoji from '../assets/memoji3.png'
 
 function About() {
   return (
-    <div className="bg-background px-8 py-10">
+    <div className="bg-background px-8 py-10 " id="About">
       <h1 className="sm:text-2xl text-4xl font-bold text-cyan underline text-center mb-8">
         About
       </h1>

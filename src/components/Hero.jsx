@@ -6,7 +6,7 @@ import heroImg from "../assets/hero.png";
 
 function Hero() {
   const [text] = useTypewriter({
-    words: ["Front-End Developer", "Student", "Hot Wing Lover", "Gym Addict"],
+    words: ["Full Stack Dev", "Student", "Hot Wing Lover", "Gym Addict"],
     loop: {},
     typeSpeed: 120,
     deleteSpeed: 80,

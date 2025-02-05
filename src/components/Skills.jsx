@@ -25,7 +25,7 @@ const skills = [
 
 function Skills() {
   return (
-    <div className="bg-background text-cyan px-8 py-10">
+    <div className="bg-background text-cyan px-8 py-10" id="Skills">
       <h1 className="sm:text-2xl text-4xl font-extrabold underline text-center">Skills</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-9 mt-10">
         {skills.map((skill) => (
