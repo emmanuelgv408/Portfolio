@@ -21,7 +21,7 @@ function NavBar() {
 
       {/* Navigation Links */}
         {/* Navigation Links */}
-  <div className="flex gap-10 items-center text-white text-sm md:text-base font-semibold">
+  <div className="flex gap-5 md:gap-10 items-center text-white text-sm md:text-base font-semibold">
     <a
       href="#Home"
       onClick={() => handleClick("Home")}
