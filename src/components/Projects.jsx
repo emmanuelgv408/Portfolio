@@ -3,6 +3,8 @@ import reactIcon from "../assets/react-icon.svg";
 import tailwindIcon from "../assets/tailwind-icon.svg";
 import portfolioSS from "../assets/myportfolio-screenshot.png";
 import portfolioMobileSS from "../assets/myportfolio-mobile.png";
+import techzoneSS from "../assets/TechZoneDesktop.png"
+import techzoneMobileSS from "../assets/TechZoneMobile.png"
 
 const projects = [
   {
@@ -13,6 +15,15 @@ const projects = [
     technologies: [reactIcon, tailwindIcon],
     link: "https://www.emmanuelguerrero.dev/",
     github: "https://github.com/emmanuelgv408/Portfolio",
+  },
+  {
+    name: "TechZone",
+    description: "A fully functional e-commerce website built with the MERN stack (MongoDB, Express.js, React, Node.js), featuring shopping cart functionality, authentication using JWT, password hashing with bcrypt, and checkout via Stripe. The project demonstrates secure authentication and dynamic interactions.",
+    image: techzoneSS,
+    mobileImage: techzoneMobileSS,
+    technologies: [reactIcon, tailwindIcon], // No icons for bcrypt and jwt, just mention them in the description
+    link: "https://techzone-eight.vercel.app/", // Replace with the actual link
+    github: "https://github.com/emmanuelgv408/TechZone", // Replace with the actual GitHub repo
   },
 ];
 
