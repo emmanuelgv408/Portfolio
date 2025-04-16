@@ -22,7 +22,7 @@ const projects = [
   },
   {
     name: "TechZone",
-    description: "A fully functional e-commerce website built with the MERN stack (MongoDB, Express.js, React, Node.js), featuring shopping cart functionality, authentication using JWT, password hashing with bcrypt, and checkout via Stripe. The project demonstrates secure authentication and dynamic interactions, built with TypeScript for type safety and improved developer experience.",
+    description: "A fully functional e-commerce website built with the MERN stack (MongoDB, Express.js, React, Node.js), featuring shopping cart functionality, authentication using JWT, password hashing with bcrypt, and checkout via Stripe. The project demonstrates secure authentication and dynamic interactions, built with TypeScript for type safety and improved developer experience. (PLEASE ALLOW UP TO A MINUTE WHEN LOGGING IN AS THE BACKEND IS HOSTED ON THE FREE TIER ON RENDER",
     image: techzoneSS,
     mobileImage: techzoneMobileSS,
     technologies: [mongodbIcon, expressIcon, nodeIcon, reactIcon,tsIcon, tailwindIcon], // No icons for bcrypt and jwt, just mention them in the description
