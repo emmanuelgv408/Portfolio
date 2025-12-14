@@ -53,13 +53,7 @@ function Contact() {
         </div>
         {/* Phone */}
         <div className="flex items-center gap-2">
-          <PhoneIcon />
-          <a
-            href="tel:+14087848733"
-            className="text-white hover:text-cyan transition"
-          >
-            (408) 784-8733
-          </a>
+        
         </div>
       </div>
     </div>
