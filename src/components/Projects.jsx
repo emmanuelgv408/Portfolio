@@ -27,6 +27,7 @@ const projects = [
     technologies: [mongodbIcon, expressIcon, nodeIcon, reactIcon, tsIcon, tailwindIcon],
     link: "https://techzone-eight.vercel.app/",
     github: "https://github.com/emmanuelgv408/TechZone",
+    video: "https://youtu.be/pH-YAgP-Fsk"
   },
   {
     name: "DevMatch (In Progress)",
