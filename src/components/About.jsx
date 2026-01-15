@@ -1,6 +1,5 @@
 import React from "react";
-import memoji from '../assets/memoji3.png'
-
+import memoji from "../assets/memoji3.png";
 
 function About() {
   return (
@@ -13,16 +12,18 @@ function About() {
         <div className="bg-custom-grey flex items-center justify-center rounded-full p-6 md:p-10">
           <img src={memoji} alt="Memoji" className="w-[150px] md:w-[200px]" />
         </div>
-        
+
         <div className="w-full md:w-[50%]">
           <p className="text-cyan text-xl">
             I'm a{" "}
-            <span className="text-white">Software Engineering student</span> at{" "}
-            <span className="text-white">Western Governors University</span> 
-            with future aspirations of becoming a full-stack developer. I'm a{" "}
-            <span className="text-white">quick learner</span> and a{" "}
-            <span className="text-white">highly adaptable</span> student who 
-            will exceed your expectations.
+            <span className="text-white">full-stack software engineer</span>{" "}
+            with hands-on experience building production-style applications
+            using{" "}
+            <span className="text-white">
+              React, TypeScript, Node.js, and MongoDB
+            </span>
+            . I focus on writing clean, maintainable code and delivering
+            responsive, high-performance user experiences.
           </p>
         </div>
       </div>
